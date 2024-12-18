@@ -36,7 +36,7 @@ class model_input(BaseModel):
     
     
 #loading the save model
-with open('C:/Users/Ajose Maria/Downloads/rain_prediction_fastapi_heroku_deploy/rain_prediction_model.pkl', 'rb') as f:
+with open('rain_prediction_model.pkl', 'rb') as f:
     rain_model = pickle.load(f)
     
 
